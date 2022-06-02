@@ -31,6 +31,7 @@ Kolejność odczytu:
 ## Zaawansowane modelowanie
 - Import bibliotek
 - Wczytanie zbioru danych
+- modelowanie funkcji celu (przekształcenie w rozkład Gaussa)
 - Podział zbioru na testowy, walidacyjny oraz treningowy (biblioteką fast_ml lub sklearn)
 - Wczytanie wymienionych modeli: XGBoost, Random Forest, LSTM oraz GRU (za pomocą PyTorch)
 - W dwóch pierwszych modelach ustawienie parametrów wejściowych w postaci słownika
