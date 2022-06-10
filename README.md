@@ -29,7 +29,17 @@ Kolejność odczytu:
 - Przeprowadza 5-krotny test walidacji krzyżowej oraz sprawdza poprawność modelu dla każdej z walidacji
 
 ## Zaawansowane modelowanie
-
+- Import bibliotek
+- Wczytanie zbioru danych
+- modelowanie funkcji celu (przekształcenie w rozkład Gaussa)
+- Podział zbioru na testowy, walidacyjny oraz treningowy (biblioteką fast_ml lub sklearn)
+- Wczytanie wymienionych modeli: XGBoost, Random Forest, LSTM oraz GRU (za pomocą PyTorch)
+- W dwóch pierwszych modelach ustawienie parametrów wejściowych w postaci słownika
+- Hiperparametryzacja za pomocą GridSearch
+- trening modelu
+- ocena metryk
+- walidacja krzyżowa za pomocą KFolds lub Stratified KFolds
+- Zapis najlepszego modelu
 
 
 
